@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+.nav-fl {
+  height: 40px;
+  background-color: #3e3e3e;
+}
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.nav-fl div a:hover {
+  text-decoration: none;
+}
+
+.carousel {
+  height: 800px;
+}
+
+.carousel-item img {
+  width: auto;
+  height: 800px;
+  opacity: 20%;
+}
+
+figure a img {
+  width: 60px;
+  height: 60px;
+}
+
+figure a div p,
+figure a div span {
+  font-size: 20px;
+}
+
+main {
+  margin-top: 100px;
+}
+
+.line-height-100 {
+  line-height: 100%;
+}
+
+header {
+  height: 60px;
+}
+
+.nav-text {
+  color: #3e3e3e;
+}
+
+.nav-text1 {
+  color: #ec5242;
+}
+
+.lato {
+  font-family: "Lato";
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.carousel-sec {
+  position: relative;
+}
+
+.whatsNew {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+
+.whatsNew h2 {
+  color: #ec5242;
+  font-size: 50px;
+}
+
+.cocogoose {
+  font-family: "COCOGOOSE";
+}
+
+.whatsNew h1 {
+  font-size: 70px;
+  background-image: url("img/text-shade.jpg");
+  background-size: contain;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.whatsNew p {
+  background-color: #f7f7f7;
+  border: 3px solid white;
+}
+
+.mainProg {
+  background-image: url("img/main_program.jpg");
+  background-repeat: repeat;
+  margin: 0;
+}
+
+.mainProg h6 {
+  border-bottom: 2px solid rgb(114, 15, 15);
+}
