@@ -123,6 +123,7 @@ a:hover {
   background-color: white;
   /* background-repeat: repeat; */
   margin: 0;
+  padding-bottom: 100px;
 }
 
 .programs {
@@ -130,14 +131,14 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(5, 19.5%);
   grid-template-rows: 1fr;
-  grid-column-gap: 5px;  
+  grid-column-gap: 5px;
 }
 
 .artist {
   display: grid;
-  grid-template-columns: repeat(2, 49%);
+  grid-template-columns: repeat(2, 48%);
   grid-template-rows: repeat(3, 1fr);
-  grid-gap: auto;
+  grid-column-gap: 4%;
 }
 
 .programs article a img {
@@ -163,3 +164,32 @@ a:hover {
 .programs article:hover {
   border: 2px solid white;
 }
+
+.Imgbg {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 55px;
+  margin-right: 80px;
+}
+
+.artImg {
+  width: 150px;
+  height: 150px;
+  top: 15px;
+  left: 15px;
+}
+
+.artDesc {
+  padding-left: 180px;
+}
+
+.artist article a h4 {
+  font-size: 1.2em;
+  padding-top: 15px;
+  padding-left: 180px;
+  margin-bottom: 0;;
+}
+/* 
+.about {
+  padding-left: 180px;
+} */
