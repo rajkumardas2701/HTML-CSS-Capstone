@@ -52,9 +52,10 @@ header {
   color: #3e3e3e;
 }
 
-.nav-text1 {
+.col-org {
   color: #ec5242;
 }
+
 
 .lato {
   font-family: "Lato";
@@ -75,7 +76,6 @@ a:hover {
 }
 
 .whatsNew h2 {
-  color: #ec5242;
   font-size: 50px;
 }
 
@@ -99,11 +99,67 @@ a:hover {
 }
 
 .mainProg {
-  background-image: url("img/main_program.jpg");
-  background-repeat: repeat;
+  /* background-image: url("img/main_program.jpg"); */
+  background-color: #272a31;
+  /* background-repeat: repeat; */
   margin: 0;
 }
 
-.mainProg h6 {
-  border-bottom: 2px solid rgb(114, 15, 15);
+.mainProgFooter {
+  margin-bottom: 100px;
+}
+
+/* .mainProg::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+  padding-top: 1px;
+  border-bottom: 2px solid rgb(121, 9, 9);
+} */
+
+.featArtist {
+  /* background-image: url("img/main_program.jpg"); */
+  background-color: white;
+  /* background-repeat: repeat; */
+  margin: 0;
+}
+
+.programs {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 19.5%);
+  grid-template-rows: 1fr;
+  grid-column-gap: 5px;  
+}
+
+.artist {
+  display: grid;
+  grid-template-columns: repeat(2, 49%);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: auto;
+}
+
+.programs article a img {
+  width: 60px;
+  height: 60px;
+}
+
+.programs article p {
+  font-size: 0.9em;
+}
+
+.programs article {
+  /* border: 1px solid red; */
+  background-color: grey;
+  /* opacity: 10%; */
+  margin: 50px 0;
+}
+
+.programs article h6 {
+  font-size: 1.1em;
+}
+
+.programs article:hover {
+  border: 2px solid white;
 }
