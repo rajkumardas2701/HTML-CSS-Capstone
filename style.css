@@ -212,3 +212,17 @@ a:hover {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
+
+footer div a img {
+  width: 80px;
+  height: 80px;
+}
+
+footer div a div p,
+footer div a div span {
+  font-size: 24px;
+}
+
+footer div a .line-height-100 {
+  line-height: 140%;
+}
