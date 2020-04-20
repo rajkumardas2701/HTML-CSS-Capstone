@@ -109,14 +109,16 @@ a:hover {
   margin-bottom: 100px;
 }
 
-/* .mainProg::after {
+.mainProg h4::after,
+.featArtist > h4::after,
+.partner h4::after {
   content: "";
   display: block;
   margin: 0 auto;
-  width: 40px;
-  padding-top: 1px;
-  border-bottom: 2px solid rgb(121, 9, 9);
-} */
+  width: 50px;
+  padding-top: 10px;
+  border-bottom: 2px solid #ec5242;
+}
 
 .featArtist {
   /* background-image: url("img/main_program.jpg"); */
