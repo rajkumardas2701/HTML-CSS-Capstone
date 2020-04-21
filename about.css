@@ -56,6 +56,18 @@ a:hover {
   align-items: center;
 }
 
+.companyLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.companyLogo {
+  border-top: 2px solid #d3d3d3;
+  border-bottom: 2px solid #d3d3d3;
+}
+
 main {
   margin-top: 100px;
 }
@@ -94,7 +106,8 @@ main {
   color: #ec5242;
 }
 
-.companyDesc h1::after {
+.companyDesc h1::after,
+.companyLogo h4::after {
   content: "";
   display: block;
   margin: 0 auto;
@@ -121,4 +134,36 @@ main {
 .companyDesc span > i{
   font-size: 1em;
   color: grey;
+}
+
+.companyLogo h4 {
+  margin: 40px auto;
+}
+
+.companyLogo > p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.companyLogo figure {
+  border: 3px solid #d3d3d3;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px; 
+}
+
+.companyLogo figure a img {
+  width: 130px;
+  height: 130px;
+}
+
+.companyLogo figure a div p,
+.companyLogo figure a div span {
+  font-size: 40px;
+}
+
+.line-height {
+  line-height: 190%;
 }
