@@ -87,3 +87,52 @@ header {
   padding-top: 10px;
   border-bottom: 2px solid #ec5242;
 }
+
+.selTicket h2 {
+  font-size: 1.6em;
+}
+
+.ticketSec {
+  width: 90%;
+}
+
+.amount {
+  border-bottom: 0;
+  font-size: 1.3em;
+}
+
+.radio {
+  border-top: 0;
+}
+
+.cocogoose {
+  font-family: "COCOGOOSE";
+}
+
+p {
+  margin-bottom: 0;
+}
+
+th, td {
+  text-align: center;
+  border: 1px solid rgb(195, 193, 193);
+  padding: 5px;
+}
+
+table {
+  margin-bottom: 70px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: rgba(0, 0, 255, 0.8);
+  border-image: repeating-linear-gradient(-45deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0.8) 5px, transparent 6px, transparent 10px, rgba(255, 0, 0, 0.8) 11px, rgba(255, 0, 0, 0.8) 15px, transparent 16px, transparent 20px) 10/10px; 
+}
+
+/* .selTicket::after {
+  display: block;
+  transform: rotate(-45deg);
+  content: "";
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  background-color: #ec5242;
+} */
