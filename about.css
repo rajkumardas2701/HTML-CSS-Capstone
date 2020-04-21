@@ -63,7 +63,7 @@ a:hover {
 
 }
 
-.companyLogo {
+.companyLogoSec {
   border-top: 2px solid #d3d3d3;
   border-bottom: 2px solid #d3d3d3;
 }
@@ -107,7 +107,8 @@ main {
 }
 
 .companyDesc h1::after,
-.companyLogo h4::after {
+.companyLogo h4::after,
+.pastConcert h4::after {
   content: "";
   display: block;
   margin: 0 auto;
@@ -166,4 +167,84 @@ main {
 
 .line-height {
   line-height: 190%;
+}
+
+.pastConcert h4 {
+  margin: 40px auto;
+}
+
+.pastConcert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pastConcertImgs {
+  display: grid;
+  grid-template-columns: repeat(2, 49%);
+  grid-column-gap: 2%;
+  height: 300px;
+  width: 90%;
+  margin-bottom: 80px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pastConcertImgs a:first-child {
+  background: url("https://www.w3schools.com/bootstrap/ny.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 350px;
+  position: relative;
+}
+
+.pastConcertImgs a:last-child {
+  background-image: url("https://www.w3schools.com/bootstrap/chicago.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+  position: relative;
+}
+
+.pastConcertImgs a:first-child::after,
+.pastConcertImgs a:last-child::after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+footer div a img {
+  width: 80px;
+  height: 80px;
+}
+
+footer div a div p,
+footer div a div span {
+  font-size: 24px;
+}
+
+footer div a .line-height-100 {
+  line-height: 140%;
+}
+
+footer {
+  background-color: rgb(65, 64, 64);
+}
+
+.pastConcertImgs a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pastConcertImgs a h3,
+.pastConcertImgs a p {
+  position: relative;
+  z-index: 1;
 }

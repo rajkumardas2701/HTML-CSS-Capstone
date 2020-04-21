@@ -5,6 +5,31 @@
 .nav-fl {
   height: 40px;
   background-color: #3e3e3e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logoSec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+body nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0em;
+  width: 100%;
+  z-index: 10;
 }
 
 .wrapper {
@@ -227,4 +252,10 @@ footer div a div span {
 
 footer div a .line-height-100 {
   line-height: 140%;
+}
+
+/* small screen elements */
+
+@media screen and (max-width: 768px) {
+  
 }
