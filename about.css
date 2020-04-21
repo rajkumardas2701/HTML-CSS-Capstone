@@ -1,48 +1,78 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  .nav-fl {
-    height: 40px;
-    background-color: #3e3e3e;
-  }
-  
-  .wrapper {
-    width: 70%;
-    margin: 0 auto; 
-  }
-  
-  .nav-fl div a:hover {
-    text-decoration: none;
-  }
-  
-  figure a img {
-    width: 60px;
-    height: 60px;
-  }
-  
-  figure a div p,
-  figure a div span {
-    font-size: 20px;
-  }
-  
-  .col-org {
-    color: #ec5242;
-  }
-  
-  
-  .lato {
-    font-family: "Lato";
-  }
-  
-  a:hover {
-    text-decoration: none;
-  }
-  
-  .nav-text {
-    color: #3e3e3e;
-  }
-  
-  .line-height-100 {
-    line-height: 100%;
-  }
+  box-sizing: border-box;
+}
+
+.nav-fl {
+  height: 40px;
+  background-color: #3e3e3e;
+}
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto; 
+}
+
+.nav-fl div a:hover {
+  text-decoration: none;
+}
+
+figure a img {
+  width: 60px;
+  height: 60px;
+}
+
+figure a div p,
+figure a div span {
+  font-size: 20px;
+}
+
+.col-org {
+  color: #ec5242;
+}
+
+header {
+  height: 60px;
+}
+
+.lato {
+  font-family: "Lato";
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav-text {
+  color: #3e3e3e;
+}
+
+.line-height-100 {
+  line-height: 100%;
+}
+
+.companyDesc {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  margin-top: 100px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  align-items: center;
+  margin-top: 30px; 
+}
+
+.fa-home,
+.fa-chevron-right {
+  font-size: 1.3em;
+}
+
+.companyDesc nav p {
+  font-size: 1.1em;
+  text-align: center;
+}

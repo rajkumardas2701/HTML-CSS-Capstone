@@ -79,7 +79,8 @@ header {
   font-size: 1.2em;
 }
 
-.selTicket h2::after {
+.selTicket h2::after,
+.selLunch h2::after {
   content: "";
   display: block;
   margin: 0 auto;
@@ -88,8 +89,10 @@ header {
   border-bottom: 2px solid #ec5242;
 }
 
-.selTicket h2 {
+.selTicket h2,
+.selLunch h2 {
   font-size: 1.6em;
+  font-weight: bold;
 }
 
 .ticketSec {
@@ -109,9 +112,9 @@ header {
   font-family: "COCOGOOSE";
 }
 
-p {
+/* p {
   margin-bottom: 0;
-}
+} */
 
 th, td {
   text-align: center;
@@ -127,12 +130,72 @@ table {
   border-image: repeating-linear-gradient(-45deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0.8) 5px, transparent 6px, transparent 10px, rgba(255, 0, 0, 0.8) 11px, rgba(255, 0, 0, 0.8) 15px, transparent 16px, transparent 20px) 10/10px; 
 }
 
-/* .selTicket::after {
+.lunch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.box {
   display: block;
   transform: rotate(-45deg);
   content: "";
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   margin: 0;
   background-color: #ec5242;
-} */
+  position: absolute;
+  top: -20px;
+}
+
+.fa-chevron-left {
+  padding: 13px;
+  transform: rotate(-45deg);
+}
+
+.selLunch {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.selLunch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.day1Menu {
+  display: flex;
+  height: 70px;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.menuSec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  border: 1px solid grey;
+  height: 100px;
+  margin-bottom: 40px;
+}
+
+.menuSec h6 {
+  background-color: #d3d3d3;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.submit {
+  background-color: #ec5242;
+  color: white;
+  height: 50px;
+  font-weight: bold;
+  border: 0;
+}
