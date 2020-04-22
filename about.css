@@ -87,7 +87,7 @@ main {
   flex-direction: row;
   align-self: flex-end;
   align-items: center;
-  margin-top: 30px; 
+  margin-top: 30px;
 }
 
 .fa-home,
@@ -299,7 +299,7 @@ footer {
   justify-content: flex-end;
 }
 
-body nav {
+body > nav {
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -313,185 +313,186 @@ body nav {
 }
 
 @media screen and (max-width: 768px) {
-body nav {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  top: 0em;
-  width: 100%;
-  z-index: 10;
-}
+  body nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0em;
+    width: 100%;
+    z-index: 10;
+  }
 
-.nav-fl,
-header {
-  display: none;
-}
+  .nav-fl,
+  header {
+    display: none;
+  }
 
-.menuOpt {
-  display: block;
-  margin-bottom: 50px;
-  margin-left: 5%;
-  padding-top: 5%;
-}
+  .menuOpt {
+    display: block;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    padding-top: 5%;
+  }
 
-.fa-bars {
-  color: #272a31;
-  font-size: 3em;
-}
+  .fa-bars {
+    color: #272a31;
+    font-size: 3em;
+  }
 
-main {
-  margin-top: 0;
-}
+  main {
+    margin-top: 0;
+  }
 
-.wrapper {
-  width: 90%;
-  margin: 0 auto; 
-}
+  .wrapper {
+    width: 90%;
+    margin: 0 auto; 
+  }
 
-.navigation {
-  display: none;
-}
+  .navigation {
+    display: none;
+  }
 
-.companyDesc h2 {
-  display: flex;
-  font-size: 35px;
-}
+  .companyDesc h2 {
+    display: flex;
+    font-size: 35px;
+  }
 
-.companyDesc h1::after {
-  display: none;
-}
+  .companyDesc h1::after {
+    display: none;
+  }
 
 
-.lgscreen {
-  display: none;
-}
+  .lgscreen {
+    display: none;
+  }
 
-.smScreen {
-  display: block;
-}
+  .smScreen {
+    display: block;
+  }
 
-.smScreen1 {
-  font-size: 1.2em;
-}
-.companyLogo h4 {
-  margin: 40px auto;
-  font-size: 2em;
-  font-weight: 600;
-  padding: 0 40px;
-}
+  .smScreen1 {
+    font-size: 1.2em;
+  }
 
-.companyLogo figure {
-  border: 3px solid #d3d3d3;
-  width: 90%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 30px;
-  height: 200px;
-}
+  .companyLogo h4 {
+    margin: 40px auto;
+    font-size: 2em;
+    font-weight: 600;
+    padding: 0 40px;
+  }
 
-.companyLogo figure a {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+  .companyLogo figure {
+    border: 3px solid #d3d3d3;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+    height: 200px;
+  }
 
-.companyLogo figure a img {
-  width: 150px;
-  height: 150px;
-}
+  .companyLogo figure a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 
-.companyLogo figure a div p,
-.companyLogo figure a div span {
-  font-size: 40px;
-}
+  .companyLogo figure a img {
+    width: 150px;
+    height: 150px;
+  }
 
-.line-height {
-  line-height: 190%;
-}
+  .companyLogo figure a div p,
+  .companyLogo figure a div span {
+    font-size: 40px;
+  }
 
-.pastConcert h4 {
-  margin: 40px auto;
-  font-size: 2em;
-  font-weight: 600;
-}
+  .line-height {
+    line-height: 190%;
+  }
 
-.pastConcert p {
-  font-size: 1.2em;
-  text-align: center;
-}
+  .pastConcert h4 {
+    margin: 40px auto;
+    font-size: 2em;
+    font-weight: 600;
+  }
 
-.pastConcertImgs {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  margin-bottom: 80px;
-}
+  .pastConcert p {
+    font-size: 1.2em;
+    text-align: center;
+  }
 
-.pastConcertImgs a:first-child {
-  display: flex;
-  flex-direction: column;
-  background: url("https://www.w3schools.com/bootstrap/ny.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 300px;
-  padding: 0 100px;
-  position: relative;
-  margin-bottom: 20px;
-}
+  .pastConcertImgs {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 80px;
+  }
 
-.pastConcertImgs a:last-child {
-  display: flex;
-  flex-direction: column;
-  background-image: url("https://www.w3schools.com/bootstrap/chicago.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 300px;
-  position: relative;
-}
+  .pastConcertImgs a:first-child {
+    display: flex;
+    flex-direction: column;
+    background: url("https://www.w3schools.com/bootstrap/ny.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    padding: 0 100px;
+    position: relative;
+    margin-bottom: 20px;
+  }
 
-.pastConcertImgs a h3 {
-  margin-top: 100px;
-}
+  .pastConcertImgs a:last-child {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://www.w3schools.com/bootstrap/chicago.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    position: relative;
+  }
 
-.pastConcertImgs a p {
-  margin-bottom: 100px;
-}
+  .pastConcertImgs a h3 {
+    margin-top: 100px;
+  }
 
-footer {
-  background-color: white;
-}
+  .pastConcertImgs a p {
+    margin-bottom: 100px;
+  }
 
-.partner {
-  background-color: rgb(65, 64, 64);
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-}
+  footer {
+    background-color: white;
+  }
 
-.partner h4 {
-  color: rgb(175, 172, 172);
-}
+  .partner {
+    background-color: rgb(65, 64, 64);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
 
-.partner h4::after {
-  content: "";
-  display: block;
-  margin: 0 auto;
-  width: 50px;
-  padding-top: 10px;
-  border-bottom: 2px solid #ec5242;
-}
+  .partner h4 {
+    color: rgb(175, 172, 172);
+  }
 
-.aboutPartners {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 30px auto;
-}
+  .partner h4::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    padding-top: 10px;
+    border-bottom: 2px solid #ec5242;
+  }
 
-.aboutPartners a img {
-  width: 100px;
-  height: 100px;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
+  .aboutPartners {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px auto;
+  }
+
+  .aboutPartners a img {
+    width: 100px;
+    height: 100px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
 
 }

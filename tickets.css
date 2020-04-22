@@ -5,11 +5,37 @@
 .nav-fl {
   height: 40px;
   background-color: #3e3e3e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .wrapper {
   width: 70%;
   margin: 0 auto; 
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.logoName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logoRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logoSec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .nav-fl div a:hover {
@@ -54,10 +80,10 @@ a:hover {
   line-height: 100%;
 }
 
-.wrapper {
+/* .wrapper {
   width: 70%;
   margin: 0 auto; 
-}
+} */
 
 main {
   margin-top: 100px;
@@ -96,10 +122,24 @@ header {
   border-bottom: 2px solid #ec5242;
 }
 
+.lgscreen {
+  display: flex;
+}
+
+.smscreen {
+  display: none;
+}
+
 .selTicket h2,
 .selLunch h2 {
   font-size: 1.6em;
   font-weight: bold;
+}
+
+.selTicket {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
 }
 
 .ticketSec {
@@ -118,10 +158,6 @@ header {
 .cocogoose {
   font-family: "COCOGOOSE";
 }
-
-/* p {
-  margin-bottom: 0;
-} */
 
 th, td {
   text-align: center;
@@ -162,14 +198,11 @@ table {
 }
 
 .selLunch {
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
-
-.selLunch {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .day1Menu {
@@ -205,4 +238,137 @@ table {
   height: 50px;
   font-weight: bold;
   border: 0;
+}
+
+.tickets div {
+  display: flex; 
+  flex-direction: column;
+}
+
+.menuOpt {
+  display: none;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+body > nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0em;
+  width: 100%;
+  z-index: 10;
+}
+
+@media screen and (max-width: 768px) {
+  body nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0em;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .nav-fl,
+  header {
+    display: none;
+  }
+
+  .menuOpt {
+    display: block;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    padding-top: 5%;
+  }
+
+  .fa-bars {
+    color: #272a31;
+    font-size: 3em;
+  }
+
+  main {
+    margin-top: 0;
+  }
+
+  .wrapper {
+    width: 90%;
+    margin: 0 auto; 
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .selLunch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 1086px) {
+  .lgscreen {
+    display: none;
+  }
+  
+  .smscreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stepsWrap ul li,
+  .stepsWrap ul span {
+    font-size: 1.2em;
+  }
+
+  .stepsWrap ul span {
+    padding-left: 0;
+  }
+
+  .ticketSec {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  
+  .menuSec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 1px solid grey;
+    height: 100px;
+    margin-bottom: 40px;
+  }
+
+  .day1Menu {
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .day1Menu div {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .day1Menu div label {
+    margin-bottom: 0em;
+  }
 }
