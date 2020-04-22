@@ -1,63 +1,48 @@
-# Project Name
+# HTML-CSS-Capstone
 
-> One paragraph statement about the project.
+> This is the Capstone project built using HTML, CSS and Bootstrap within 3 days.
 
-![screenshot](./app_screenshot.png)
+<strong>Home</strong>
+<img width="960" alt="Home Page" src="https://github.com/rajkumardas2701/HTML-CSS-Capstone/blob/feature/img/home.png">
 
-Additional description about the project and its features.
+<strong>Tickets</strong><br>
+<img width="960" alt="tickets page" src="https://github.com/rajkumardas2701/HTML-CSS-Capstone/blob/feature/img/Tickets.png">
+
+<strong>About</strong><br>
+<img width="960" alt="about Page" src="https://github.com/rajkumardas2701/HTML-CSS-Capstone/blob/feature/img/about.png">
+
+This was the final project in my Microverse HTML CSS Curriculum in which I have used Bootstrap classes, HTML and CSS to built Concert website. In this project, different browser resolution (Desktop, Tab and Phone) has been taken into consideration and managed responsiveness accordingly.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Bootstrap classes
+- CSS,
+- HTML,
+- Git, GitHub, Visual Studio Code
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/rajkumardas2701/HTML-CSS-Capstone/4b403667846df9ecf61f6f9a936b120470677126/index.html)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+Feel free to pull the code on your local machine using GIT and explore the HTML and CSS files. You can also use demo link mentioned above to see the responsiveness in the page.
 
 
 ## Authors
 
-👤 **Author1**
+👤 Rajkumar Das
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@rajkumardas2701](https://github.com/rajkumardas2701)
+- Twitter: [@Rajkuma58621299](https://twitter.com/Rajkuma58621299)
+- Linkedin: [Rajkumar Das](https://www.linkedin.com/in/rajkumar-das-41308961/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/rajkumardas2701/HTML-CSS-Capstone/issues).
 
 ## Show your support
 
@@ -65,9 +50,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+1. Thanks to Team 104 Fornax for the suggestions and feedback as and when required.<br>
+2. Design template referred for this project was originally built by https://creativecommons.org/licenses/by-nc/4.0/
 
 ## 📝 License
 
