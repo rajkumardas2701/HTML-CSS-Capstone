@@ -147,9 +147,14 @@ header {
   font-size: 50px;
 }
 
+/* .mainHead {
+  font-family: "COCOGOOSE", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+} */
+/* 
 .cocogoose {
   font-family: "COCOGOOSE", Arial, Helvetica, sans-serif;
-}
+} */
 
 .whatsNew div > h2 {
   font-size: 70px;
@@ -159,6 +164,8 @@ header {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  font-family: "COCOGOOSE", Arial, Helvetica, sans-serif;
+  font-weight: bolder;
 }
 
 footer div a div p,
