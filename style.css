@@ -128,7 +128,7 @@ header {
 }
 
 .lato {
-  font-family: "Lato";
+  font-family: "Lato", Arial, Helvetica, sans-serif;
 }
 
 .carousel-sec {
@@ -148,7 +148,7 @@ header {
 }
 
 .cocogoose {
-  font-family: "COCOGOOSE";
+  font-family: "COCOGOOSE", Arial, Helvetica, sans-serif;
 }
 
 .whatsNew div > h2 {

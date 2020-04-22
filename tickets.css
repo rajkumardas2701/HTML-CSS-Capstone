@@ -61,7 +61,7 @@ figure a div span {
 }
 
 .lato {
-  font-family: "Lato";
+  font-family: "Lato", Arial, Helvetica, sans-serif;
 }
 
 .navigation {
@@ -151,7 +151,7 @@ header {
 }
 
 .cocogoose {
-  font-family: "COCOGOOSE";
+  font-family: "COCOGOOSE", Arial, Helvetica, sans-serif;
 }
 
 th,

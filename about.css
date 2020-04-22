@@ -57,7 +57,7 @@ header {
 }
 
 .lato {
-  font-family: "Lato";
+  font-family: "Lato", Arial, Helvetica, sans-serif;
 }
 
 .nav-text {
@@ -131,7 +131,7 @@ footer div a div span {
 }
 
 .cocogoose {
-  font-family: "COCOGOOSE";
+  font-family: "COCOGOOSE", Arial, Helvetica, sans-serif;
 }
 
 .companyDesc h1 {
