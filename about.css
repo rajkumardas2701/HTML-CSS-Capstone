@@ -5,11 +5,18 @@
 .nav-fl {
   height: 40px;
   background-color: #3e3e3e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lgscreen {
+  display: block;
 }
 
 .wrapper {
   width: 70%;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .nav-fl div a:hover {
@@ -56,11 +63,14 @@ a:hover {
   align-items: center;
 }
 
+.companyDesc h2 {
+  display: none;
+}
+
 .companyLogo {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .companyLogoSec {
@@ -179,6 +189,15 @@ main {
   align-items: center;
 }
 
+a {
+  text-decoration: none;
+}
+
+.partner {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
 .pastConcertImgs {
   display: grid;
   grid-template-columns: repeat(2, 49%);
@@ -186,10 +205,6 @@ main {
   height: 300px;
   width: 90%;
   margin-bottom: 80px;
-}
-
-a {
-  text-decoration: none;
 }
 
 .pastConcertImgs a:first-child {
@@ -204,6 +219,7 @@ a {
   background-repeat: no-repeat;
   background-size: 100% 300px;
   position: relative;
+}
 }
 
 .pastConcertImgs a:first-child::after,
@@ -236,6 +252,27 @@ footer {
   background-color: rgb(65, 64, 64);
 }
 
+.smScreen {
+  display: none;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.logoName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logoRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .pastConcertImgs a {
   display: flex;
   flex-direction: column;
@@ -247,4 +284,214 @@ footer {
 .pastConcertImgs a p {
   position: relative;
   z-index: 1;
+}
+
+.logoSec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+body nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0em;
+  width: 100%;
+  z-index: 10;
+}
+
+.menuOpt {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+body nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0em;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav-fl,
+header {
+  display: none;
+}
+
+.menuOpt {
+  display: block;
+  margin-bottom: 50px;
+  margin-left: 5%;
+  padding-top: 5%;
+}
+
+.fa-bars {
+  color: #272a31;
+  font-size: 3em;
+}
+
+main {
+  margin-top: 0;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto; 
+}
+
+.navigation {
+  display: none;
+}
+
+.companyDesc h2 {
+  display: flex;
+  font-size: 35px;
+}
+
+.companyDesc h1::after {
+  display: none;
+}
+
+
+.lgscreen {
+  display: none;
+}
+
+.smScreen {
+  display: block;
+}
+
+.smScreen1 {
+  font-size: 1.2em;
+}
+.companyLogo h4 {
+  margin: 40px auto;
+  font-size: 2em;
+  font-weight: 600;
+  padding: 0 40px;
+}
+
+.companyLogo figure {
+  border: 3px solid #d3d3d3;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+  height: 200px;
+}
+
+.companyLogo figure a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.companyLogo figure a img {
+  width: 150px;
+  height: 150px;
+}
+
+.companyLogo figure a div p,
+.companyLogo figure a div span {
+  font-size: 40px;
+}
+
+.line-height {
+  line-height: 190%;
+}
+
+.pastConcert h4 {
+  margin: 40px auto;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.pastConcert p {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.pastConcertImgs {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 80px;
+}
+
+.pastConcertImgs a:first-child {
+  display: flex;
+  flex-direction: column;
+  background: url("https://www.w3schools.com/bootstrap/ny.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+  padding: 0 100px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.pastConcertImgs a:last-child {
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://www.w3schools.com/bootstrap/chicago.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+  position: relative;
+}
+
+.pastConcertImgs a h3 {
+  margin-top: 100px;
+}
+
+.pastConcertImgs a p {
+  margin-bottom: 100px;
+}
+
+footer {
+  background-color: white;
+}
+
+.partner {
+  background-color: rgb(65, 64, 64);
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.partner h4 {
+  color: rgb(175, 172, 172);
+}
+
+.partner h4::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+  padding-top: 10px;
+  border-bottom: 2px solid #ec5242;
+}
+
+.aboutPartners {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 30px auto;
+}
+
+.aboutPartners a img {
+  width: 100px;
+  height: 100px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 }

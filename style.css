@@ -350,6 +350,10 @@ main {
   margin-top: 0;
 }
 
+.lgscreen {
+  display: flex;
+}
+
 .wrapper {
   width: 90%;
   margin: 0 auto; 
