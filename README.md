@@ -11,7 +11,7 @@
 <strong>About</strong><br>
 <img width="960" alt="about Page" src="https://github.com/rajkumardas2701/HTML-CSS-Capstone/blob/feature/img/about.png">
 
-This was the final project in my Microverse HTML CSS Curriculum in which I have used Bootstrap classes, HTML and CSS to built Concert website. In this project, different browser resolution (Desktop, Tab and Phone) has been taken into consideration and managed responsiveness accordingly.
+This is the final project in my Microverse HTML CSS Curriculum in which I have used Bootstrap classes, HTML and CSS to built Concert website. In this project, different browser resolution (Desktop, Tab and Phone) has been taken into consideration and managed responsiveness accordingly.
 
 ## Built With
 
@@ -22,7 +22,7 @@ This was the final project in my Microverse HTML CSS Curriculum in which I have 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/rajkumardas2701/HTML-CSS-Capstone/4b403667846df9ecf61f6f9a936b120470677126/index.html)
+[Live Demo Link](https://rawcdn.githack.com/rajkumardas2701/HTML-CSS-Capstone/13564c9244f440e796f52bfc06ec0e1e72b398c7/index.html)
 
 
 ## Getting Started
