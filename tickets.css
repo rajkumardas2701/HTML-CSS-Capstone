@@ -12,7 +12,7 @@
 
 .wrapper {
   width: 70%;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .logo {
@@ -38,6 +38,10 @@
   justify-content: space-between;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .nav-fl div a:hover {
   text-decoration: none;
 }
@@ -57,11 +61,7 @@ figure a div span {
 }
 
 .lato {
-  font-family: "Lato";
-}
-
-a:hover {
-  text-decoration: none;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
 }
 
 .navigation {
@@ -79,11 +79,6 @@ a:hover {
 .line-height-100 {
   line-height: 100%;
 }
-
-/* .wrapper {
-  width: 70%;
-  margin: 0 auto; 
-} */
 
 main {
   margin-top: 100px;
@@ -137,7 +132,7 @@ header {
 }
 
 .selTicket {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -156,10 +151,11 @@ header {
 }
 
 .cocogoose {
-  font-family: "COCOGOOSE";
+  font-family: "COCOGOOSE", Arial, Helvetica, sans-serif;
 }
 
-th, td {
+th,
+td {
   text-align: center;
   border: 1px solid rgb(195, 193, 193);
   padding: 5px;
@@ -170,7 +166,7 @@ table {
   border-width: 10px;
   border-style: solid;
   border-color: rgba(0, 0, 255, 0.8);
-  border-image: repeating-linear-gradient(-45deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0.8) 5px, transparent 6px, transparent 10px, rgba(255, 0, 0, 0.8) 11px, rgba(255, 0, 0, 0.8) 15px, transparent 16px, transparent 20px) 10/10px; 
+  border-image: repeating-linear-gradient(-45deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0.8) 5px, transparent 6px, transparent 10px, rgba(255, 0, 0, 0.8) 11px, rgba(255, 0, 0, 0.8) 15px, transparent 16px, transparent 20px) 10/10px;
 }
 
 .lunch {
@@ -241,7 +237,7 @@ table {
 }
 
 .tickets div {
-  display: flex; 
+  display: flex;
   flex-direction: column;
 }
 
@@ -260,7 +256,7 @@ body > nav {
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 0em;
+  top: 0;
   width: 100%;
   z-index: 10;
 }
@@ -270,7 +266,7 @@ body > nav {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 0em;
+    top: 0;
     width: 100%;
     z-index: 10;
   }
@@ -298,7 +294,7 @@ body > nav {
 
   .wrapper {
     width: 90%;
-    margin: 0 auto; 
+    margin: 0 auto;
   }
 
   .navigation {
@@ -318,7 +314,7 @@ body > nav {
   .lgscreen {
     display: none;
   }
-  
+
   .smscreen {
     display: flex;
     flex-direction: column;
@@ -330,17 +326,12 @@ body > nav {
     font-size: 1.2em;
   }
 
-  .stepsWrap ul span {
-    padding-left: 0;
-  }
-
   .ticketSec {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 1160px) {
-  
   .menuSec {
     display: flex;
     flex-direction: column;
@@ -369,6 +360,6 @@ body > nav {
   }
 
   .day1Menu div label {
-    margin-bottom: 0em;
+    margin-bottom: 0;
   }
 }

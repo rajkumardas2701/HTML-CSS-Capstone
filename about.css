@@ -19,6 +19,21 @@
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.pastConcertImgs a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .nav-fl div a:hover {
   text-decoration: none;
 }
@@ -42,11 +57,7 @@ header {
 }
 
 .lato {
-  font-family: "Lato";
-}
-
-a:hover {
-  text-decoration: none;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
 }
 
 .nav-text {
@@ -95,13 +106,32 @@ main {
   font-size: 1.3em;
 }
 
+footer div a div p,
+footer div a div span {
+  font-size: 24px;
+}
+
+.companyDesc > p {
+  border: 1px solid #d3d3d3;
+  background-color: white;
+  padding: 30px 50px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.companyLogo > p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 .companyDesc nav p {
   font-size: 1.1em;
   text-align: center;
 }
 
 .cocogoose {
-  font-family: "COCOGOOSE";
+  font-family: "COCOGOOSE", Arial, Helvetica, sans-serif;
 }
 
 .companyDesc h1 {
@@ -110,10 +140,6 @@ main {
   margin-top: 40px;
   margin-bottom: 10px;
   text-align: center;
-}
-
-.col-org {
-  color: #ec5242;
 }
 
 .companyDesc h1::after,
@@ -127,22 +153,13 @@ main {
   border-bottom: 2px solid #ec5242;
 }
 
-.companyDesc > p {
-  border: 1px solid #d3d3d3;
-  background-color: white;
-  padding: 30px 50px;
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 60px;
-}
-
 .companyDesc > span {
   font-weight: 400;
   font-size: 1.2em;
   margin-bottom: 80px;
 }
 
-.companyDesc span > i{
+.companyDesc span > i {
   font-size: 1em;
   color: grey;
 }
@@ -151,23 +168,29 @@ main {
   margin: 40px auto;
 }
 
-.companyLogo > p {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
 .companyLogo figure {
   border: 3px solid #d3d3d3;
   width: 30%;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
+}
+
+footer div a img {
+  width: 80px;
+  height: 80px;
 }
 
 .companyLogo figure a img {
   width: 130px;
   height: 130px;
+}
+
+.pastConcertImgs a h3,
+.pastConcertImgs a p {
+  position: relative;
+  z-index: 1;
 }
 
 .companyLogo figure a div p,
@@ -189,37 +212,48 @@ main {
   align-items: center;
 }
 
-a {
-  text-decoration: none;
-}
-
 .partner {
   display: none;
 }
 
 @media screen and (min-width: 769px) {
-.pastConcertImgs {
-  display: grid;
-  grid-template-columns: repeat(2, 49%);
-  grid-column-gap: 2%;
-  height: 300px;
-  width: 90%;
-  margin-bottom: 80px;
-}
+  .pastConcertImgs {
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    grid-column-gap: 2%;
+    height: 300px;
+    width: 90%;
+    margin-bottom: 80px;
+  }
 
-.pastConcertImgs a:first-child {
-  background: url("https://www.w3schools.com/bootstrap/ny.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 350px;
-  position: relative;
-}
+  .companyLogo figure a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 
-.pastConcertImgs a:last-child {
-  background-image: url("https://www.w3schools.com/bootstrap/chicago.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 300px;
-  position: relative;
-}
+  .pastConcertImgs a:first-child {
+    background: url("https://www.w3schools.com/bootstrap/ny.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+    position: relative;
+  }
+
+  .pastConcertImgs a:last-child {
+    background-image: url("https://www.w3schools.com/bootstrap/chicago.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    position: relative;
+  }
+
+  .companyLogo figure {
+    border: 3px solid #d3d3d3;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
 }
 
 .pastConcertImgs a:first-child::after,
@@ -232,16 +266,6 @@ a {
   height: 100%;
   z-index: 0;
   background-color: rgba(255, 0, 0, 0.5);
-}
-
-footer div a img {
-  width: 80px;
-  height: 80px;
-}
-
-footer div a div p,
-footer div a div span {
-  font-size: 24px;
 }
 
 footer div a .line-height-100 {
@@ -273,19 +297,6 @@ footer {
   align-items: center;
 }
 
-.pastConcertImgs a {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.pastConcertImgs a h3,
-.pastConcertImgs a p {
-  position: relative;
-  z-index: 1;
-}
-
 .logoSec {
   display: flex;
   flex-direction: row;
@@ -303,7 +314,7 @@ body > nav {
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 0em;
+  top: 0;
   width: 100%;
   z-index: 10;
 }
@@ -317,7 +328,7 @@ body > nav {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 0em;
+    top: 0;
     width: 100%;
     z-index: 10;
   }
@@ -345,7 +356,7 @@ body > nav {
 
   .wrapper {
     width: 90%;
-    margin: 0 auto; 
+    margin: 0 auto;
   }
 
   .navigation {
@@ -360,7 +371,6 @@ body > nav {
   .companyDesc h1::after {
     display: none;
   }
-
 
   .lgscreen {
     display: none;
@@ -397,9 +407,25 @@ body > nav {
     align-items: center;
   }
 
+  .aboutPartners a img {
+    width: 100px;
+    height: 100px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
   .companyLogo figure a img {
     width: 150px;
     height: 150px;
+  }
+
+  .pastConcert p {
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .pastConcertImgs a p {
+    margin-bottom: 100px;
   }
 
   .companyLogo figure a div p,
@@ -415,10 +441,6 @@ body > nav {
     margin: 40px auto;
     font-size: 2em;
     font-weight: 600;
-  }
-
-  .pastConcert p {
-    font-size: 1.2em;
     text-align: center;
   }
 
@@ -453,10 +475,6 @@ body > nav {
     margin-top: 100px;
   }
 
-  .pastConcertImgs a p {
-    margin-bottom: 100px;
-  }
-
   footer {
     background-color: white;
   }
@@ -487,12 +505,4 @@ body > nav {
     justify-content: space-around;
     margin: 30px auto;
   }
-
-  .aboutPartners a img {
-    width: 100px;
-    height: 100px;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-  }
-
 }
