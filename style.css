@@ -143,7 +143,7 @@ header {
   flex-direction: column;
 }
 
-.whatsNew h2 {
+.whatsNew h3 {
   font-size: 50px;
 }
 
@@ -226,7 +226,7 @@ footer div a div span {
 }
 
 .aboutPartners a img {
-  width: 100%;
+  width: 100px;
   height: 100px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -293,10 +293,10 @@ footer div a div span {
 
 .aboutPartners {
   display: grid;
-  grid-template-columns: repeat(5, 17%);
-  grid-column-gap: 3%;
+  grid-template-columns: repeat(5, 8.5%);
   margin-top: 40px;
   margin-bottom: 40px;
+  justify-content: space-between;
 }
 
 footer div a .line-height-100 {
