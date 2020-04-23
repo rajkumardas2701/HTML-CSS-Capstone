@@ -22,7 +22,7 @@ This is the final project in my Microverse HTML CSS Curriculum in which I have u
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/rajkumardas2701/HTML-CSS-Capstone/13564c9244f440e796f52bfc06ec0e1e72b398c7/index.html)
+[Live Demo Link](https://rawcdn.githack.com/rajkumardas2701/HTML-CSS-Capstone/69e97b296e27e8db73c84cd8fd03761f3e374f10/index.html)
 
 
 ## Getting Started
