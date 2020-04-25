@@ -1,0 +1,508 @@
+* {
+  box-sizing: border-box;
+}
+
+.nav-fl {
+  height: 40px;
+  background-color: #3e3e3e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lgscreen {
+  display: block;
+}
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.pastConcertImgs a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-fl div a:hover {
+  text-decoration: none;
+}
+
+figure a img {
+  width: 60px;
+  height: 60px;
+}
+
+figure a div p,
+figure a div span {
+  font-size: 20px;
+}
+
+.col-org {
+  color: #ec5242;
+}
+
+header {
+  height: 60px;
+}
+
+.lato {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+.nav-text {
+  color: #3e3e3e;
+}
+
+.line-height-100 {
+  line-height: 100%;
+}
+
+.companyDesc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.companyDesc h2 {
+  display: none;
+}
+
+.companyLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.companyLogoSec {
+  border-top: 2px solid #d3d3d3;
+  border-bottom: 2px solid #d3d3d3;
+}
+
+main {
+  margin-top: 100px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.fa-home,
+.fa-chevron-right {
+  font-size: 1.3em;
+}
+
+footer div a div p,
+footer div a div span {
+  font-size: 24px;
+}
+
+.companyDesc > p {
+  border: 1px solid #d3d3d3;
+  background-color: white;
+  padding: 30px 50px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.companyLogo > p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.companyDesc nav p {
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.cocogoose {
+  font-family: "COCOGOOSE", Arial, Helvetica, sans-serif;
+}
+
+.companyDesc h1 {
+  font-weight: bold;
+  font-size: 4em;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.companyDesc h1::after,
+.companyLogo h4::after,
+.pastConcert h4::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+  padding-top: 10px;
+  border-bottom: 2px solid #ec5242;
+}
+
+.companyDesc > span {
+  font-weight: 400;
+  font-size: 1.2em;
+  margin-bottom: 80px;
+}
+
+.companyDesc span > i {
+  font-size: 1em;
+  color: grey;
+}
+
+.companyLogo h4 {
+  margin: 40px auto;
+}
+
+.companyLogo figure {
+  border: 3px solid #d3d3d3;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+footer div a img {
+  width: 80px;
+  height: 80px;
+}
+
+.companyLogo figure a img {
+  width: 130px;
+  height: 130px;
+}
+
+.pastConcertImgs a h3,
+.pastConcertImgs a p {
+  position: relative;
+  z-index: 1;
+}
+
+.companyLogo figure a div p,
+.companyLogo figure a div span {
+  font-size: 40px;
+}
+
+.line-height {
+  line-height: 190%;
+}
+
+.pastConcert h4 {
+  margin: 40px auto;
+}
+
+.pastConcert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partner {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  .pastConcertImgs {
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    grid-column-gap: 2%;
+    height: 300px;
+    width: 90%;
+    margin-bottom: 80px;
+  }
+
+  .companyLogo figure a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .pastConcertImgs a:first-child {
+    background: url("https://www.w3schools.com/bootstrap/ny.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+    position: relative;
+  }
+
+  .pastConcertImgs a:last-child {
+    background-image: url("https://www.w3schools.com/bootstrap/chicago.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    position: relative;
+  }
+
+  .companyLogo figure {
+    border: 3px solid #d3d3d3;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
+.pastConcertImgs a:first-child::after,
+.pastConcertImgs a:last-child::after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+footer div a .line-height-100 {
+  line-height: 140%;
+}
+
+footer {
+  background-color: rgb(65, 64, 64);
+}
+
+.smScreen {
+  display: none;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.logoName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logoRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logoSec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+body > nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.menuOpt {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  body nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .nav-fl,
+  header {
+    display: none;
+  }
+
+  .menuOpt {
+    display: block;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    padding-top: 5%;
+  }
+
+  .fa-bars {
+    color: #272a31;
+    font-size: 3em;
+  }
+
+  main {
+    margin-top: 0;
+  }
+
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .companyDesc h2 {
+    display: flex;
+    font-size: 35px;
+  }
+
+  .companyDesc h1::after {
+    display: none;
+  }
+
+  .lgscreen {
+    display: none;
+  }
+
+  .smScreen {
+    display: block;
+  }
+
+  .smScreen1 {
+    font-size: 1.2em;
+  }
+
+  .companyLogo h4 {
+    margin: 40px auto;
+    font-size: 2em;
+    font-weight: 600;
+    padding: 0 40px;
+  }
+
+  .companyLogo figure {
+    border: 3px solid #d3d3d3;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+    height: 200px;
+  }
+
+  .companyLogo figure a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .aboutPartners a img {
+    width: 100px;
+    height: 100px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .companyLogo figure a img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .pastConcert p {
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .pastConcertImgs a p {
+    margin-bottom: 100px;
+  }
+
+  .companyLogo figure a div p,
+  .companyLogo figure a div span {
+    font-size: 40px;
+  }
+
+  .line-height {
+    line-height: 190%;
+  }
+
+  .pastConcert h4 {
+    margin: 40px auto;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .pastConcertImgs {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 80px;
+  }
+
+  .pastConcertImgs a:first-child {
+    display: flex;
+    flex-direction: column;
+    background: url("https://www.w3schools.com/bootstrap/ny.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    padding: 0 100px;
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .pastConcertImgs a:last-child {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://www.w3schools.com/bootstrap/chicago.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    position: relative;
+  }
+
+  .pastConcertImgs a h3 {
+    margin-top: 100px;
+  }
+
+  footer {
+    background-color: white;
+  }
+
+  .partner {
+    background-color: rgb(65, 64, 64);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+
+  .partner h4 {
+    color: rgb(175, 172, 172);
+  }
+
+  .partner h4::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    padding-top: 10px;
+    border-bottom: 2px solid #ec5242;
+  }
+
+  .aboutPartners {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px auto;
+  }
+}
