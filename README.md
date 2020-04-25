@@ -3,13 +3,13 @@
 > This is the Capstone project built using HTML, CSS and Bootstrap within 3 days.
 
 <strong>Home</strong>
-<img width="960" alt="Home Page" src="https://github.com/rajkumardas2701/HTML-CSS-Capstone/blob/feature/img/home.png">
+<img width="960" alt="Home Page" src="https://github.com/rajkumardas2701/HTML-CSS-Capstone/blob/master/img/home.png">
 
 <strong>Tickets</strong><br>
-<img width="960" alt="tickets page" src="https://github.com/rajkumardas2701/HTML-CSS-Capstone/blob/feature/img/Tickets.png">
+<img width="960" alt="tickets page" src="https://github.com/rajkumardas2701/HTML-CSS-Capstone/blob/master/img/Tickets.png">
 
 <strong>About</strong><br>
-<img width="960" alt="about Page" src="https://github.com/rajkumardas2701/HTML-CSS-Capstone/blob/feature/img/about.png">
+<img width="960" alt="about Page" src="https://github.com/rajkumardas2701/HTML-CSS-Capstone/blob/master/img/about.png">
 
 This is the final project in my Microverse HTML CSS Curriculum in which I have used Bootstrap classes, HTML and CSS to built Concert website. In this project, different browser resolution (Desktop, Tab and Phone) has been taken into consideration and managed responsiveness accordingly.
 
